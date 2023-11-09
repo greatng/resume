@@ -11,12 +11,12 @@
 	$: dataLink = `${sourceLink}/blob/main/static/data/profile.json`;
 	$: ({
 		intro = {} as IProfileResp['intro'],
-		projects = [],
 		technologies = [],
 		workExperiences = [],
 		educations = [],
 		interests = [],
-		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {}
+		resumeUrl: { sourceLink = '', fullVersionLink = '' } = {},
+		certificates = [],
 	} = profile || {});
 
 	onMount(async () => (profile = await fetchResumeProfile()));
@@ -28,9 +28,9 @@
 </script>
 
 <!-- Remove this is you does not want Kofi widget on your site -->
-{#if intro.github == 'narze'}
+<!-- {#if intro.github == 'narze'}
 	<Kofi name={intro.github} />
-{/if}
+{/if} -->
 
 <header class="web-only text-center p-4 sm:p-6 bg-green-400 text-white w-screen">
 	<h1 class="text-4xl">Resumette</h1>
@@ -94,26 +94,25 @@
 		</Hideable>
 	</section>
 
+	{#if certificates?.length}
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Certificates</h2>
 			<hr />
 
 			<ul class="text-left list-disc pl-8">
-				{#each projects as project}
-					<Hideable hide={project.hide}>
+				{#each certificates as certificate}
+					<Hideable hide={certificate.hide}>
 						<li>
-							<strong>{project.name}</strong>
-							- {project.details}
-							<a href="https://{project.url}" target="_blank" rel="noreferrer"
-								><strong>{project.url}</strong></a
-							>
+							<strong>{certificate.name}</strong>
+							- {certificate.details}
 						</li>
 					</Hideable>
 				{/each}
 			</ul>
 		</Hideable>
 	</section>
+	{/if}
 
 	<section>
 		<Hideable>

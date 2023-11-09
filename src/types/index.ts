@@ -9,6 +9,7 @@ export interface IProfileResp {
 		sourceLink: string;
 		fullVersionLink: string;
 	};
+	certificates: ICertificate[];
 }
 export interface IIntro {
 	name: string;
@@ -44,4 +45,10 @@ export interface IWorkExperience {
 export interface IEducation {
 	head: string;
 	details: string;
+}
+
+export interface ICertificate {
+	name: string;
+	details: string;
+	hide: boolean;
 }
