@@ -105,7 +105,7 @@
 					<Hideable hide={certificate.hide}>
 						<li>
 							<strong>{certificate.name}</strong>
-							- {certificate.details}
+							- {certificate.year}
 						</li>
 					</Hideable>
 				{/each}

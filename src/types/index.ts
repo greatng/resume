@@ -49,6 +49,7 @@ export interface IEducation {
 
 export interface ICertificate {
 	name: string;
-	details: string;
+	year: string;
+	details?: string;
 	hide: boolean;
 }

@@ -79,5 +79,14 @@
 		"sourceLink": "https://github.com/greatng/resume",
 		"fullVersion": "https://resume.greatng.me"
 	},
-	"certificate": []
+	"certificates": [
+		{
+			"name": "Microsoft Certified: Azure Fundamentals",
+			"year": "Nov, 2023"
+		},
+		{
+			"name": "AWS Certified Cloud Practitioner",
+			"year": "Nov, 2022"
+		}
+	]
 }
