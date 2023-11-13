@@ -16,7 +16,7 @@
 		},
 		{
 			"section": "Frameworks:",
-			"details": "Angular 2+, Next.js, React.js, Express.js (Basic), Node.js, TailwindCSS"
+			"details": "Angular 2+, Next.js, React.js, Express.js (Basic), Node.js, TailwindCSS, Jasmine"
 		},
 		{
 			"section": "Tools:",
@@ -42,7 +42,7 @@
 				"Mentored and onboarded new members to the team, and helped them with technical issues",
 				"Identified and fixed bugs, and improved performance of the applications",
 				"Complied with the company's coding standards and best practices",
-				"Researched & applied improvements for application performance, and user experience such as Web workers, Web assembly, and node server-side calculating",
+				"Researched & applied improvements for application performance, and user experience such as Web workers, Web assembly, and node server-side calculation",
 				"Maintained team CI/CD pipelines, using Gitlab CI/CD"
 			]
 		},
