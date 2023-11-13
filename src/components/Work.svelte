@@ -34,10 +34,6 @@
 		@apply my-4;
 	}
 
-	a {
-		text-decoration: underline;
-	}
-
 	@media print {
 		.work-experience {
 			@apply my-1;
