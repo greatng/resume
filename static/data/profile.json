@@ -33,7 +33,7 @@
 			"company": "Refinitiv (an LSEG business)",
 			"url": "https://www.refinitiv.com/",
 			"years": [
-				"Jan, 2023",
+				"Jan 2023",
 				"Current"
 			],
 			"details": [
@@ -51,8 +51,8 @@
 			"company": "42Bangkok",
 			"url": "https://42bangkok.com/",
 			"years": [
-				"July, 2022",
-				"Jan, 2023"
+				"July 2022",
+				"Jan 2023"
 			],
 			"details": [
 				"Containerized, developed, and maintained serveral applications using Docker, Kubernetes, and ArgoCD",
@@ -82,11 +82,11 @@
 	"certificates": [
 		{
 			"name": "Microsoft Certified: Azure Fundamentals",
-			"year": "Nov, 2023"
+			"year": "Nov 2023"
 		},
 		{
 			"name": "AWS Certified Cloud Practitioner",
-			"year": "Nov, 2022"
+			"year": "Nov 2022"
 		}
 	]
 }
