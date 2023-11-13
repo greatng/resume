@@ -3,7 +3,6 @@
 	import type { IProfileResp } from '../types';
 	import Hideable from './Hideable.svelte';
 	import Intro from './Intro.svelte';
-	import Kofi from './Kofi.svelte';
 	import Work from './Work.svelte';
 
 	let profile: IProfileResp;
