@@ -11,6 +11,7 @@
 	$: ({
 		intro = {} as IProfileResp['intro'],
 		technologies = [],
+		languages = [],
 		workExperiences = [],
 		educations = [],
 		interests = [],
@@ -50,7 +51,7 @@
 
 	<section>
 		<Hideable>
-			<h2 class="text-2xl print:text-4xl uppercase text-left">Technologies and Languages</h2>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Technologies</h2>
 			<hr />
 			<ul class="text-left list-disc pl-8">
 				{#each technologies as tech}
@@ -58,6 +59,26 @@
 						<li>
 							<span class="w-28 inline-block">{tech.section}</span>
 							<span>{tech.details}</span>
+						</li>
+					</Hideable>
+				{/each}
+			</ul>
+		</Hideable>
+	</section>
+
+	<section>
+		<Hideable>
+			<h2 class="text-2xl print:text-4xl uppercase text-left">Languages</h2>
+			<hr />
+			<ul class="text-left list-disc pl-8">
+				{#each languages as lang}
+					<Hideable>
+						<li>
+							<span class="w-28 inline-block">{lang.language}</span>
+							<span>{lang.level}</span>
+							{#if lang.details}
+								<span>({lang.details})</span>
+							{/if}
 						</li>
 					</Hideable>
 				{/each}

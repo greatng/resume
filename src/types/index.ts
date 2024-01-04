@@ -2,6 +2,7 @@ export interface IProfileResp {
 	intro: IIntro;
 	projects: IProject[];
 	technologies: ITechnology[];
+	languages: ILanguage[];
 	workExperiences: IWorkExperience[];
 	educations: IEducation[];
 	interests: string[];
@@ -32,6 +33,12 @@ export interface IProject {
 export interface ITechnology {
 	section: string;
 	details: string;
+}
+
+export interface ILanguage {
+	language: string;
+	level: string;
+	details?: string;
 }
 
 export interface IWorkExperience {
