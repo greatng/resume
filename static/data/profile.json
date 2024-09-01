@@ -75,11 +75,11 @@
 				"Jan 2023"
 			],
 			"details": [
-				"Containerized, developed, and maintained serveral applications using Docker, Kubernetes, and ArgoCD",
-				"Migrated on-premise infrastructure to AWS EC2, ECR",
-				"Designed architecture using Microservices Pattern on 42Bangkok Regsitration Platform",
-				"Helped, and collaborated with software engineering team on coding with good practices and lowering technical debt",
-				"Researched & introduced modern web technologies to the team, such as Next.js."
+				"Containerized, developed, and maintained several applications using Docker, Kubernetes, and ArgoCD, ensuring scalability and efficient deployment.",
+				"Migrated on-premise infrastructure to AWS EC2 and ECR, improving the reliability and scalability of the applications.",
+				"Designed the architecture using Microservices Pattern for the 42Bangkok Registration Platform, enhancing modularity and system resilience.",
+				"Collaborated with the software engineering team to promote good coding practices and reduce technical debt.",
+				"Researched and introduced modern web technologies to the team, such as Next.js, fostering innovation and improving development efficiency."
 			]
 		},
 		{
