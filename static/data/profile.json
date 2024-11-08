@@ -12,11 +12,11 @@
 	"technologies": [
 		{
 			"section": "Languages:",
-			"details": "JavaScript, TypeScript, C, Golang (Basic), Ruby (Basic), Python (Basic)"
+			"details": "JavaScript, TypeScript, CSS, HTML5, C, Golang (Basic), Ruby (Basic), Python (Basic)"
 		},
 		{
 			"section": "Frameworks:",
-			"details": "Angular2, Next.js, React.js, Express.js (Basic), Node.js, TailwindCSS, Jasmine"
+			"details": "Angular2, Next.js, React.js, Express.js, Node.js, TailwindCSS, Jasmine"
 		},
 		{
 			"section": "Tools:",
@@ -24,7 +24,7 @@
 		},
 		{
 			"section": "Other:",
-			"details": "AWS, Gitlab CI/CD"
+			"details": "AWS, Gitlab CI/CD, REST API"
 		}
 	],
 	"languages": [
@@ -49,8 +49,8 @@
 	"workExperiences": [
 		{
 			"position": "Software Engineer",
-			"company": "LSEG Data & Analytics",
-			"url": "https://www.refinitiv.com/",
+			"company": "London Stock Exchange Group",
+			"url": "https://www.lseg.com/",
 			"years": [
 				"Jan 2023",
 				"Current"
