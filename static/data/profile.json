@@ -20,7 +20,7 @@
 		},
 		{
 			"section": "Tools:",
-			"details": "Git, Docker, Kubernetes, Bash"
+			"details": "Git, Docker, Kubernetes, Bash, Shell"
 		},
 		{
 			"section": "Other:",
@@ -39,7 +39,7 @@
 		},
 		{
 			"language": "Japanese",
-			"level": "Basic"
+			"level": "JLPT N4"
 		},
 		{
 			"language": "French",
@@ -56,9 +56,10 @@
 				"Current"
 			],
 			"details": [
-				"Solely maintain and lead two core applications from the beginning of 2024, overseeing all development and project management tasks.",
+				"Play a key role in maintaining and enhancing the core products for the LSEG, a high-performance financial data platform.",
+				"Plan releaseing and deployment strategies, ensuring to meet the business requirements and deadlines.",
+				"Modernize the existing codebase, migrating from Angular9 to Angular 17, improving maintainability and performance.",
 				"Collaborate closely with QA and stakeholders to align on business goals and deliver high-quality software.",
-				"Develop and implement new features, ensuring continuous improvement and bug fixes.",
 				"Drive performance optimizations, including a 10% reduction in CPU usage and enhancing the overall user experience.",
 				"Contributed to significant performance improvements, including the release of a key feature in 2023 that supported 9x the data size compared to previous versions.",
 				"Researched and implemented performance enhancements, such as Web Workers, WebAssembly, and Node.js server-side calculations.",
