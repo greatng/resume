@@ -48,17 +48,31 @@
 	],
 	"workExperiences": [
 		{
-			"position": "Software Engineer",
+			"position": "Senior Software Engineer",
 			"company": "London Stock Exchange Group",
 			"url": "https://www.lseg.com/",
 			"years": [
-				"Jan 2023",
+				"Oct 2025",
 				"Current"
+			],
+			"details": [
+				"Lead the development and maintenance of core products for the LSEG, a high-performance financial data platform.",
+				"Collaborate with cross-functional teams to define technical strategies and ensure alignment with business goals.",
+				"Modernize the application architecture, adopting the new technologies and best practices to enhance performance and scalability.",
+				"Estimate efforts and plan project timelines, ensuring timely delivery of high-quality software solutions.",
+				"Improve user workflows by suggesting and implementing new features based on user feedback"
+			]
+		},
+		{
+			"position": "Software Engineer",
+			"years": [
+				"Jan 2023",
+				"Sep 2025"
 			],
 			"details": [
 				"Play a key role in maintaining and enhancing the core products for the LSEG, a high-performance financial data platform.",
 				"Plan releaseing and deployment strategies, ensuring to meet the business requirements and deadlines.",
-				"Modernize the existing codebase, migrating from Angular9 to Angular 17, improving maintainability and performance.",
+				"Modernize the existing codebase, migrating from Angular9 to Angular 20, improving maintainability and performance.",
 				"Collaborate closely with QA and stakeholders to align on business goals and deliver high-quality software.",
 				"Drive performance optimizations, including a 10% reduction in CPU usage and enhancing the overall user experience.",
 				"Contributed to significant performance improvements, including the release of a key feature in 2023 that supported 9x the data size compared to previous versions.",
