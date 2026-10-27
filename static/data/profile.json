@@ -9,7 +9,7 @@
 		"location": "Bangkok, Thailand",
 		"website": "greatng.me",
 		"title": "Senior Software Engineer",
-		"summary": "Building thoughtful web applications and high-performance financial software. Experienced in application modernization, cloud infrastructure, and helping engineering teams deliver reliable products."
+		"summary": "Senior Software Engineer developing a new flagship product at LSEG to deliver an enhanced user experience. Experienced in high-performance financial applications, application modernization, and cloud infrastructure."
 	},
 	"technologies": [
 		{
@@ -55,10 +55,13 @@
 			"url": "https://www.lseg.com/",
 			"years": ["Oct 2025", "Present"],
 			"details": [
+				"Develop a new flagship product at LSEG, designed to deliver an enhanced user experience.",
 				"Lead development and maintenance of core products on LSEG’s high-performance financial data platform.",
-				"Collaborate with cross-functional teams on technical strategy, delivery planning, and business priorities.",
+				"Collaborate with cross-functional teams to align technical strategy and delivery plans with business priorities.",
 				"Modernize application architecture to improve performance, scalability, and maintainability.",
-				"Improve user workflows through features informed by user feedback."
+				"Optimize application performance through Largest Contentful Paint (LCP) improvements and dynamic loading.",
+				"Use AI-assisted workflows to automate repetitive development tasks and improve engineering efficiency.",
+				"Translate user feedback into features that improve everyday workflows."
 			]
 		},
 		{

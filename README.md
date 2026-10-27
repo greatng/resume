@@ -32,7 +32,7 @@ pnpm preview
 
 ## Printing and PDF
 
-Use **Print / Save PDF** in the page header, then select **Save as PDF** in the browser. Use A4 paper, the default scale, and turn browser headers and footers off. The print layout removes navigation, decorative elements, and personal-interest content; retains contact details and every career entry; and avoids splitting roles across pages. Browser PDF output contains selectable text and clickable links. The current résumé occupies two A4 pages.
+Use **Print / Save PDF** in the page header, then select **Save as PDF** in the browser. Use A4 paper, the default scale, and turn browser headers and footers off. The print layout removes navigation, decorative elements, and personal-interest content; retains contact details and every career entry; and avoids splitting roles across pages. Browser PDF output contains selectable text and clickable links. The current résumé occupies one A4 page.
 
 ## Content provenance
 
