@@ -1,6 +1,6 @@
 export interface IProfileResp {
 	intro: IIntro;
-	projects: IProject[];
+	projects?: IProject[];
 	technologies: ITechnology[];
 	languages: ILanguage[];
 	workExperiences: IWorkExperience[];
@@ -13,6 +13,8 @@ export interface IProfileResp {
 	certificates: ICertificate[];
 }
 export interface IIntro {
+	title: string;
+	summary: string;
 	name: string;
 	nickname: string;
 	phone: string;
@@ -44,7 +46,7 @@ export interface ILanguage {
 export interface IWorkExperience {
 	position: string;
 	company: string;
-	url: string;
+	url?: string;
 	years: string[];
 	details: string[];
 }
@@ -58,5 +60,5 @@ export interface ICertificate {
 	name: string;
 	year: string;
 	details?: string;
-	hide: boolean;
+	hide?: boolean;
 }
