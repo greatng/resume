@@ -14,7 +14,7 @@
 	"technologies": [
 		{
 			"section": "Languages:",
-			"details": "JavaScript, TypeScript, CSS, HTML5, C, Golang (Basic), Ruby (Basic), Python (Basic)"
+			"details": "JavaScript, TypeScript, CSS, HTML5, C"
 		},
 		{
 			"section": "Frameworks:",
@@ -22,7 +22,7 @@
 		},
 		{
 			"section": "Tools:",
-			"details": "Git, Docker, Kubernetes, Bash, Shell"
+			"details": "Git, Bash, Shell"
 		},
 		{
 			"section": "Other:",
@@ -42,10 +42,6 @@
 		{
 			"language": "Japanese",
 			"level": "JLPT N4"
-		},
-		{
-			"language": "French",
-			"level": "Elementary"
 		}
 	],
 	"workExperiences": [
@@ -83,7 +79,7 @@
 			"url": "https://42bangkok.com/",
 			"years": ["July 2022", "Jan 2023"],
 			"details": [
-				"Developed and containerized applications with Docker, Kubernetes, and ArgoCD.",
+				"Developed and containerized applications, with deployment managed through ArgoCD.",
 				"Migrated on-premises infrastructure to AWS EC2 and ECR for improved reliability and scalability.",
 				"Designed a microservices architecture for the 42Bangkok Registration Platform.",
 				"Introduced modern web technologies including Next.js, and promoted maintainable engineering practices."
